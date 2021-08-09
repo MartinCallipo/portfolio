@@ -1,0 +1,218 @@
+body {
+    font-family: "montserrat", sans-serif;
+}
+h1{
+    color: cyan;
+    font-size: 36px;
+    
+}
+p{
+    color: white;
+    font-size: 14px;
+}
+input{
+    border-radius: 15px !important;
+}
+textarea{
+    border-radius: 15px !important;
+}
+nav .nav-link{
+    color: white;
+}
+nav {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 78%);
+    font-weight: 600;
+}
+nav .active {
+    border: 1px solid white;
+    border-radius: 20px;
+    color: cyan;
+    scale: (1.1);transform:scale(1.1);   
+}
+nav .activado {
+    color: cyan;
+    scale: (1.1);transform:scale(1.1);   
+}
+
+#contacto{
+    background-image: url("../images/fondo-contactosw.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+.btn :hover{
+    color: cyan !important;  
+}
+#btnEnviar :hover{
+    color: cyan;
+    border: 0px;    
+}
+#btnEnviar{
+    color: white;
+}
+@media(max-width: 750px) {
+    #contacto{
+        background-image: url("../images/fondo-contacto-movil.png");
+    }
+    footer, footer a{
+        color: #6a6a6a;
+    }
+    #sobremi {
+        background-image: url("../images/fondo-proyecto-movil.png") !important;
+    }
+    .icono {
+        margin-left: 0px !important;
+        text-align: center;
+
+    }
+    .proyectos{
+        background-image: url("../images/fondo-proyecto-movil.png");
+        background-repeat: repeat
+    }
+}
+.fa-bars{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff4a49; 
+}
+.navbar-toggler {
+    color: #ff4a49;
+    border: 1px solid #ff4a49;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: cyan;
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin {
+    color:black;
+    background-color: white;
+    font-size:22px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.fa-whatsapp{
+    position: fixed;
+    right: 80px;
+    bottom: 0px;
+    color: white;
+    background-color: #370a6d;
+    padding: 20px 20px 40px 20px;
+    font-size: 36px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#proyectos{
+    background-image: url("../images/fondo-proyectosw.jpg");
+    background-size: 100%;
+}
+.gradiente {
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+.proyectos h2{
+    color: white;
+    font-size: 16px;
+}
+.img-circle{
+    border-radius: 360px;
+    width: 300px;
+    padding: 0px;
+    margin-left: 100px;
+    border: 10px solid white;
+}
+#sobremi {
+    background-image: url("../images/fondo-proyectosw.jpg");
+    
+}
+h3{
+    color: white;
+    font-size: 36px;
+}
+.btnmensaje {
+    margin-top: 80px;
+    background-color: none;
+    border: white solid 2px;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.btnmensaje :hover {
+    color: cyan;
+}
+.sectionstack {
+    background-image: url("../images/5701776.jpg");
+    margin-top: 30px;
+}
+
+
+h4{
+    margin-left: 100px;
+    font-size: 36px;
+    color:white;
+    position : absolute;
+    margin-top: -115px;
+    
+}
+h5{
+    color: black;
+    font-size: 15px;
+}
+#tituloformacion{
+    margin-left: 50px;
+    font-size: 34px;
+    color: black;
+    position : absolute;
+    margin-top: -115px;
+    font-weight: 700;
+}
+.icono{
+    border-radius: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+h6 {
+    color: white;
+    padding-right: 0px;
+}
+#index {
+    background-image: url(../images/fondo-proyectosw.jpg);
+}
+.container .cubo:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition-delay: 0.25s;
+    transition:all .5s ease-in-out;
+    
+}
+.cubo{
+    margin-top: 30px;
+} 
+
+h7 {
+    color: white;
+    font-size: 12px;
+}
