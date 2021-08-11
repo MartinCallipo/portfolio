@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
             <li class="nav-item">
-              <a class="nav-link px-4 py-1 active" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link px-4 py-1 active" aria-current="page" href="home.php">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link px-4 py-1 " aria-current="page" href="about_me.php">About me</a>
@@ -58,7 +58,7 @@
     <main class="container">
         <div class="row">
             <div class="col-12 text-center mt-5">               
-                <a href="proyectos.php" title="Ir a mi proyectos">
+                <a href="projects.php" title="Go to my projects">
                     <img class="cubo" src="icons/—Pngtree—fault neon circle border element_4716618.png" alt="" height="350px" width="480px">
                 </a>
             </div>

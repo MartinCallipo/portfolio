@@ -60,7 +60,7 @@
         </div>        
         <div class="row">  
           <div class="col-12 col-sm-6">
-            <p>Te invito a que te contactes enviandome un mensaje o bien por Whatsapp</p>
+            <H6>Te invito a que te contactes enviandome un mensaje o bien por Whatsapp</H6>
           </div>
               <div class="col-12 col-sm-6">
                 <form action="" method="POST">

@@ -60,7 +60,7 @@
         </div>        
         <div class="row">  
           <div class="col-12 col-sm-6">
-            <p>I invite you to contact me sending a message or by WhatsApp</p>
+            <H6>I invite you to contact me sending a message or by WhatsApp</H6>
           </div>
               <div class="col-12 col-sm-6">
                 <form action="" method="POST">

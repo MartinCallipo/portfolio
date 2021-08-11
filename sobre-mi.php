@@ -62,7 +62,7 @@
           <h3>Sobre Mi</h3>
         </div>
         <div>
-          <p>Estudiante de ciencias informaticas, tecnicatura en informatica y desarrollo FullStack. </p>
+          <H6>Estudiante de ciencias informaticas, tecnicatura en informatica y desarrollo FullStack. </H6>
         </div>
         <div pt-4>
           <a href="contacto.php" class="btn btnmensaje">ENVIAR MENSAJE</a>
@@ -98,20 +98,24 @@
         <img class="img-fluid d-block mx-auto" src="icons/autocad.png" alt="Autocad" width="100" tittle="Autocad">
         <h5>Autocad</h5>
       </div>
-      <div class="row">
-        <div class="col-12 col-sm-6 text-center mt-3">
-          <div class="row mt-4">
-            <div class="col-12 col-sm-6 text-center">
-              <img class="img-fluid d-block mx-auto" src="icons/bootstrap-icon-css.png" alt="Bootstrap" width="100">
-              <h5>Bootstrap</h5>
-            </div>
-            <div class="col-12 col-sm-6 text-center">
-              <img class="img-fluid d-block mx-auto" src="icons/blender-3d.png" alt="Blender" width="100">
-              <h5>Blender</h5>
-            </div>
-          </div>
+      <div class="row my-4">
+        <div class="col-6 col-sm-3 text-center">
+          <img class="img-fluid d-block mx-auto" src="icons/bootstrap-icon-css.png" alt="Bootstrap" width="100">
+          <h5>Bootstrap</h5>
         </div>
-      </div>
+        <div class="col-6 col-sm-3 text-center">
+          <img class="img-fluid d-block mx-auto" src="icons/blender-3d.png" alt="Blender" width="100">
+          <h5>Blender</h5>
+        </div>
+        <div class="col-6 col-sm-3 text-center">
+            <img class="img-fluid d-block mx-auto" src="icons/iconphoto.png" alt="Bootstrap" width="100">
+            <h5>Photoshop</h5>
+        </div>
+        <div class="col-6 col-sm-3 text-center">
+            <img class="img-fluid d-block mx-auto" src="icons/php.png" alt="Blender" width="100">
+            <h5>Php</h5>        
+        </div>
+    </div>
   </main>
   <main id="sectionformacion" class="container-fluid pt-4">
     <div class="row">

@@ -7,7 +7,7 @@ h1{
     
 }
 p{
-    color: white;
+    color: black;
     font-size: 14px;
 }
 input{
@@ -135,7 +135,7 @@ footer .fa-linkedin {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
 }
 .proyectos h2{
-    color: white;
+    color: black;
     font-size: 16px;
 }
 .img-circle{
@@ -211,7 +211,9 @@ h6 {
 .cubo{
     margin-top: 30px;
 } 
-
+.texten {
+    font-size: 41px !important;
+}
 h7 {
     color: white;
     font-size: 12px;
