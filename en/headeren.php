@@ -18,7 +18,7 @@
               <a class="nav-link px-4 py-1 <?php echo ($pg == "projects") ? "active" : "" ?>" aria-current="page" href="projects.php">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 py-1 <?php echo ($pg == "contac") ? "active" : "" ?>" aria-current="page" href="contact.php">Contact</a>
+              <a class="nav-link px-4 py-1 <?php echo ($pg == "contact") ? "active" : "" ?>" aria-current="page" href="contact.php">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
