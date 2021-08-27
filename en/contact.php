@@ -1,6 +1,34 @@
 <?php 
 
 $pg = "contact";
+
+if ($_POST){
+  $nombre = $_REQUEST["txtNombre"];
+  $correo = $_REQUEST["mail"];
+  $mensaje = $_REQUEST["txtNombre"];
+  $telefono = $_REQUEST["tel"];
+
+  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+  $cabeceras .= 'To: mary@example.com' . "\r\n";
+  $cabeceras .= 'From: Admin <cumples@example.com>' . "\r\n";
+
+  $para = "mary@example.com";
+  $asunto = "Se contactaron desde tu sitio web";
+  $mensaje = "
+  Nombre = $nombre<br>
+  Correo = $correo<br>
+  Tel&eacute;fono = $telefono<br>
+  Mensaje = <br>$mensaje<br>
+  ";
+
+  mail($para, $asunto, $mensaje, $cabeceras);
+  header ("Location: confirmation.php");
+
+}
+
+
 ?>
 
 

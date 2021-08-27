@@ -25,8 +25,7 @@ nav {
     font-weight: 600;
 }
 nav .active {
-    border: 1px solid white;
-    border-radius: 20px;
+   
     color: cyan;
     scale: (1.1);transform:scale(1.1);   
 }
@@ -92,6 +91,7 @@ nav .activado {
 footer, footer a{
     color: white;
     font-weight: 100;
+    
 }
 footer .fa-github{
     font-size: 30px;

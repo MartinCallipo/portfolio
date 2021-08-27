@@ -1,6 +1,37 @@
 <?php 
 
 $pg = "contacto";
+if ($_POST){
+  $nombre = $_REQUEST["txtNombre"];
+  $correo = $_REQUEST["mail"];
+  $mensaje = $_REQUEST["txtNombre"];
+  $telefono = $_REQUEST["tel"];
+
+  $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+  $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+  $cabeceras .= 'To: mary@example.com' . "\r\n";
+  $cabeceras .= 'From: Admin <cumples@example.com>' . "\r\n";
+
+  $para = "mary@example.com";
+  $asunto = "Se contactaron desde tu sitio web";
+  $mensaje = "
+  Nombre = $nombre<br>
+  Correo = $correo<br>
+  Tel&eacute;fono = $telefono<br>
+  Mensaje = <br>$mensaje<br>
+  ";
+
+  mail($para, $asunto, $mensaje, $cabeceras);
+  header ("Location: confirmacion-envio.php");
+
+
+
+}
+
+
+
+
 ?>
 
 
@@ -36,16 +67,16 @@ $pg = "contacto";
               <div class="col-12 col-sm-6">
                 <form action="" method="POST">
                   <div>
-                    <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3" placeholder="Nombre">
+                    <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3" placeholder="Nombre" required ="">
                   </div>
                   <div>
-                    <input type="email" name="mail" id="mail" class="form-control mb-3" placeholder="nombre@ejemplo.com">
+                    <input type="email" name="mail" id="mail" class="form-control mb-3" placeholder="nombre@ejemplo.com" required ="">
                   </div>
                   <div>
-                    <input type="tel" name="tel" id="tel" class="form-control mb-3" placeholder="011-1234-5678">
+                    <input type="tel" name="tel" id="tel" class="form-control mb-3" placeholder="011-1234-5678" required ="">
                   </div>
                   <div>
-                    <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" class="form-control"></textarea>
+                    <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" class="form-control" required =""></textarea>
                   </div>
                   <div>
                     <button type="submit" name="btnEnviar" id="btnEnviar" class="btn mt-4">ENVIAR</button>
